@@ -1,0 +1,5 @@
+object cost{
+      def bookprice(N:Int)=N*24.95*0.6
+      def shippingcost(N:Int):Double=3*N+(N-50)*0.75
+      println(bookprice(60)+shippingcost(60))
+      }

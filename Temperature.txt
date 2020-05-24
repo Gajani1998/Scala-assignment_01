@@ -1,0 +1,4 @@
+object Temperature{
+       def fahrenheit(c :Double)=c*1.8000+32.00;
+       println(fahrenheit(35))
+       }
